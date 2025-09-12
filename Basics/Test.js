@@ -197,7 +197,7 @@ console.log(typeof change_element)  */
 
 // ***********************************************************************
 
-
+/*
 let Name = "Naveen"
 let Roll_no = 454
 let is_male = true
@@ -225,5 +225,38 @@ console.log(typeof company)
 console.log(typeof top_mnc)
 console.log(typeof Other)
 console.log(typeof info)
+
+*/
+
+
+//........................................................................
+
+
+// let Name = "Naveen"
+
+// let AnotherName = Name
+// AnotherName ="Amit"
+
+// console.log(Name)
+// console.log(AnotherName)
+
+
+
+//.................................................
+
+// let information ={
+//     name :"Naveen",
+//     Roll_No : 234,
+//     Addresh : "rajstqhn"
+
+// }
+// console.log(information)
+
+// let informationAnother = information
+// informationAnother.Addresh="Haryana"
+
+// console.log(informationAnother)
+
+// console.log(information)
 
 
