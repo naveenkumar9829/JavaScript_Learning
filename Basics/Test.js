@@ -194,3 +194,36 @@ console.log(typeof change_element)  */
 
 
 
+
+// ***********************************************************************
+
+
+let Name = "Naveen"
+let Roll_no = 454
+let is_male = true
+let Account_No = 43756348543858375493593n
+let id_No = Symbol("112")
+let salary = null
+let company;
+
+
+let top_mnc = ["TCS","INFOSYS","Global Logic"]
+let Other = function(){
+    console.log("this is function")
+}
+let info ={
+    name:"Amit",
+    age:89
+}
+console.log(typeof Name)
+console.log(typeof Roll_no)
+console.log(typeof is_male)
+console.log(typeof Account_No)
+console.log(typeof id_No)
+console.log(typeof salary)
+console.log(typeof company)
+console.log(typeof top_mnc)
+console.log(typeof Other)
+console.log(typeof info)
+
+
