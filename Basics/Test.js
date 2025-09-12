@@ -260,3 +260,53 @@ console.log(typeof info)
 // console.log(information)
 
 
+//............................................................................................
+
+// let Name="Amit"
+// let Roll_No = 67
+
+// console.log(`hii my name is ${Name} and my roll no is ${Roll_No}`)
+
+// console.log(Name.charAt[2])
+
+// let OraganizationName = new String("TechQware pvt ltd")
+
+// console.log(OraganizationName)
+// console.log(typeof OraganizationName)
+// console.log(OraganizationName[2])
+// console.log(OraganizationName.toUpperCase())
+// console.log(OraganizationName.toLocaleLowerCase())
+// console.log(OraganizationName.charAt(4))
+// console.log(OraganizationName.length)
+// console.log(OraganizationName.split("t"))
+// console.log(OraganizationName.slice(0,8))
+// console.log(OraganizationName.replace("TechQware","Infosys"))
+// console.log(OraganizationName.trim())
+
+//...............................................................................
+//..............................................................................
+
+// let OraganizationName = "TechQware pvt ltd"
+
+// console.log(OraganizationName)
+// console.log(typeof OraganizationName)
+// console.log(OraganizationName[2])
+// console.log(OraganizationName.toUpperCase())
+// console.log(OraganizationName.toLocaleLowerCase())
+// console.log(OraganizationName.charAt(4))
+// console.log(OraganizationName.length)
+// console.log(OraganizationName.split("t"))
+// console.log(OraganizationName.slice(0,8))
+// console.log(OraganizationName.replace("TechQware","Infosys"))
+// console.log(OraganizationName.trim())
+
+
+// let OraganizationName1 = new String("TechQware pvt ltd")
+// let OraganizationName2 = "TechQware pvt ltd"
+// console.log(OraganizationName1)
+// console.log(OraganizationName2)
+
+
+//............................................................................
+
+
