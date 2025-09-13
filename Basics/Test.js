@@ -309,4 +309,229 @@ console.log(typeof info)
 
 //............................................................................
 
+// const Marks = 367.001
+// console.log(Marks.toFixed(2))
+// console.log(Marks.toLocaleString())
+// console.log(Marks.toPrecision(4))
+// console.log(typeof (Marks.toString()))
+
+//  const Marks = 1000
+//  console.log(Marks.toFixed(2))
+// console.log(Marks.toExponential(2))
+
+
+// console.log(Math.random())
+// console.log(Math.floor((Math.random()*10)+1))
+// console.log(Math.ceil((Math.random()*10)+1))
+
+// console.log(Math.max(20,60,34))
+// console.log(Math.min(20,60,34))
+
+// console.log(Math.sqrt(25))
+
+
+//....................................................................
+
+// const OperationDate = Date()
+// console.log(OperationDate.toString())
+
+
+// const OperationDate = new Date()
+// console.log(OperationDate.toString())
+// console.log(OperationDate.toDateString())
+// console.log(OperationDate.toTimeString())
+// console.log(OperationDate.toISOString())
+// console.log(OperationDate.toLocaleString())
+// console.log(OperationDate.toLocaleTimeString())
+// console.log(OperationDate.toLocaleDateString())
+
+
+// const OperationDate = new Date(2023,1,21,5,7)
+// console.log(OperationDate.toString())
+
+
+
+/*
+const OperationDate = new Date()
+console.log(OperationDate.getDay())
+console.log(OperationDate.getDate())
+console.log(OperationDate.getFullYear())
+console.log(OperationDate.getMilliseconds())
+
+console.log(OperationDate.toLocaleString('defaults',{
+    weekday:"narrow",
+    weekday: 'long',
+  year: 'numeric',
+  month: 'long',
+//   day: '2-digit',
+//   hour: '2-digit',
+//   minute: '2-digit',
+//   second: '2-digit',
+  hour12: true,
+  timeZoneName: 'short'
+   
+})) */
+
+//**********************************************************************
+//********************************************************************** 
+
+
+
+// const MyArray = [10,20,30,"Naveen",true,100.1]
+// console.log(MyArray)
+// console.log( typeof MyArray)
+
+
+// const MyArray = new Array(10,20,30,"Naveen",true,100.1)
+// console.log(MyArray)
+// // MyArray.shift()
+// // MyArray.shift()
+// MyArray.unshift("A")
+// console.log(MyArray)
+
+
+// console.log( typeof MyArray)
+// MyArray.push(999)
+// MyArray.push(888)
+
+// console.log(MyArray)
+// // // MyArray.pop()
+// MyArray.pop()
+// console.log(MyArray)
+
+
+//const MyArray = new Array(10,20,30,"Naveen",true,100.1)
+// console.log(MyArray.includes(true))
+// console.log(MyArray.includes(100))
+// console.log(MyArray.includes("Naveen"))
+
+// console.log(MyArray.indexOf(true))
+// console.log(MyArray.indexOf(67))
+// console.log(MyArray.indexOf("Naveen"))
+
+//******** 
+
+
+// let MyArray = new Array(10,20,30,"Naveen",true,100.1)
+// const MyArrayNew = new Array(999,888,777)
+
+// console.log(MyArray)
+// console.log(MyArrayNew)
+
+// let OtherArr = MyArrayNew.join()
+// console.log(OtherArr)
+// console.log(typeof OtherArr)
+
+
+// let abc= MyArrayNew.join()
+// console.log(abc)
+// console.log(typeof abc)
+
+// console.log(typeof MyArray.join())  
+
+
+
+// let MyArray = new Array(10,20,30,"Naveen",true,100.1)
+
+// console.log(MyArray.slice(1,4))
+// console.log(MyArray.splice(1,4))
+// console.log(MyArray)
+
+// [ 20, 30, 'Naveen' ]
+// [ 20, 30, 'Naveen', true ]
+// [ 10, 100.1 ]
+//...............................................
+
+// let MyArray = new Array(10,20,30,"Naveen",true,100.1)
+
+// console.log(MyArray)
+
+// let sub1 = MyArray.slice(1,4)
+// console.log(sub1)
+
+// let sub2 = MyArray.splice(1,2)
+// console.log(sub2)
+
+// console.log(MyArray)
+
+//.....................................................................
+//.....................................................................
+//.....................................................................
+
+
+// let MyArray1 = new Array(10,20,30,40)
+// let MyArray2 = new Array(70,80,90,100)
+
+// let MyArray3 = MyArray1.push(MyArray2)  
+// console.log(MyArray3)    //5
+
+//......................................................................
+
+
+// let MyArray1 = new Array(10,20,30,40)
+// let MyArray2 = new Array(70,80,90,100)
+
+// MyArray1.push(MyArray2)
+// console.log(MyArray1)
+// console.log(MyArray1[4][0])
+
+
+// let MyArray1 = new Array(10,20,30,40)
+// let MyArray2 = new Array(70,80,90,100)
+
+// let MyArray3=MyArray1.concat(MyArray2)
+// console.log(MyArray3)
+// console.log(MyArray3.length)
+
+
+//.....................................................
+// let MyArray1 = new Array(10,20,30,40)
+// let MyArray2 = new Array(70,80,90,100)
+
+// let MyArray3 = [...MyArray1,...MyArray2]
+// console.log(MyArray3)
+
+//......................................................
+
+
+// let MyArray = [10,30,40,[1,2,3,4,[true,false],"naveen"],50,[4,7]]
+// console.log(MyArray.flat(1))
+// console.log(MyArray.flat(Infinity))
+
+//........................................................................................
+//........................................................................................
+
+// let MyArray1 = new Array(10,20,30,40)
+// console.log(Array.isArray(MyArray1)) // true
+// console.log(Array.isArray("Naveen"))   // false
+
+// console.log(Array.from("Naveen"))
+// console.log(Array.from([10,20,[4,5],40,50]))
+
+
+// let name = "amit"
+// let roll = 20
+// let Addresh ="jaipur"
+// console.log(Array.of(name,roll,Addresh))
+
+
+
+//console.log(Array.from({name:"hitesh"}))  //[]
+
+
+
+
+// let myobj= {
+//   name : "Naveen",
+//   class : "BCA",
+//   rollNo : 45
+// }
+
+// console.log(Array.from(Object.entries(myobj)))
+
+// console.log(Array.from(Object.keys(myobj)))
+// console.log(Array.from(Object.values(myobj)))
+
+//.................................................
+
 
