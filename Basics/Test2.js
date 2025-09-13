@@ -184,3 +184,92 @@
 
 //....................................................................................
 
+/* functions .............  */
+
+// function Test(num1,num2){
+    
+//     return num1+num2
+//     console.log("hii this is Test function")
+// }
+// total=Test(12,12)
+// console.log(total)
+
+
+
+//******************************************************************* */
+// function Test(num1){
+
+//     if (num1 ===undefined){
+//         console.log("plese provid ea number")
+//     }
+//     else {
+//         console.log(`my number is ${num1}`)
+//     }
+
+//     return num1
+    
+// }
+
+// total=Test(23)
+// console.log(total)
+
+//******************************************************* */
+
+
+// rest parameater
+
+// function multiple_rates(...rates){
+//     console.log(rates)
+// }
+
+// multiple_rates(100,200,300,350,356)
+
+
+//********************************************************* */
+
+//object in function parameater
+/*
+function Test(rate1,rate2, ...all_other_rate){
+    console.log(`hii this rate of items ${rate1}  and  ${rate2}   or ${all_other_rate} `)
+}
+  
+Test(10,304,23,55)   */
+
+/*
+info ={
+    name:"naveen",
+    rollNo:"123",
+    Addresh:"bhiwani"
+
+}
+
+function Test(my_object){
+            console.log(my_object.name)
+            console.log(my_object.rollNo)
+            console.log(my_object.Addresh)
+            console.log(my_object.stream)
+
+}
+
+// Test(info)
+Test({ name:"naveen",
+    rollNo:"123",
+    Addresh:"bhiwani"})
+*/
+
+
+
+// Array in function parameater
+
+// myArray=["naveen","ankit","lankesh","ranakumbha"]
+// function Test(myArray,...otherdata){
+//         console.log(`my Array is ${myArray} and my other array is ${otherdata}`)
+// }
+
+// Test(myArray,["a","b"],[90,10])
+// Test([10,30,50,34])
+
+
+
+
+
