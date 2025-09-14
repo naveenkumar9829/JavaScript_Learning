@@ -270,6 +270,121 @@ Test({ name:"naveen",
 // Test([10,30,50,34])
 
 
+// ..................................................................
+//..................................................................
 
 
+
+// function One(){
+//     const Comapany="Techqware"
+
+//     function empoyee() {
+//         ceo="shatrughan bhatti"
+//         console.log(Comapany)
+//         console.log(ceo)
+//     }
+//     empoyee()
+// }
+// One()
+//......................................................................
+//.....................................................................
+
+/*
+
+function Proparty() {
+    name="Techware private ltd"
+    
+
+    function employee(){
+        var softwareLead="shatrughan bhatti"
+        console.log(name)
+        console.log(softwareLead)
+
+        function refrence(){
+            node_employee1 = "maitree"
+            node_employee2 = "Naveen"
+
+            console.log("employee1 :",node_employee1)
+            console.log("employee2 :",node_employee2)
+        }
+        
+        refrence()
+    }
+    employee()
+    
+}
+
+Proparty()  */
+
+
+
+// function are store in the variable 
+
+// const myinfo = function(...Test){
+//     return(Test)
+// }
+
+// console.log(myinfo("naveen","kumar"))
+// myinfo()
+
+
+//......................................................................
+
+
+// let Info ={
+//     name:"Naveen",
+//     roll:"34",
+
+//     msg : function (){
+//         console.log(`hii good morning ${this.name}`)
+
+//     }
+    
+// }
+// console.log(Info.msg())
+
+
+// function Test(){
+//         console.log(this)
+
+//     }
+// Test()
+
+
+// here this are come in (arrow function)
+// const info = () => {
+//         console.log(this)
+//     }
+// info()
+
+
+//********************************************************************************** */
+// const info = (num1,num2) => {
+//         return num1+num2
+//      }
+// console.log(info(12,12))
+
+
+// const info = (num1,num2) =>  num1+num2
+// console.log(info(12,12))
+
+// const info = (num1,num2) => ( num1+num2)
+// console.log(info(12,12))
+
+// if we give any object 
+
+// const info = () => ({username:"naveen"})
+// console.log(info())
+
+
+
+// we use a block  then we must use the return 
+
+// const info = (num1,num2) =>  {
+//     return num1+num2
+
+// }
+// console.log(info(12,12))
+
+//....................................................................................
 
